@@ -23,8 +23,8 @@
       state: started
       enabled: yes
 
-    - name: Add user centos to docker group
-      user:
-        name: centos
-        groups: docker
-        append: yes
+  - name: Add user centos to docker group
+    user:
+      name: centos
+      groups: docker
+      append: yes
