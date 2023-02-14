@@ -1,0 +1,14 @@
+---
+- name: Update and install
+  hosts: all
+  become: yes
+
+  tasks:
+  - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+  - name: Install Docker Compose
+      apt:
+        name: docker-compose
+        state: present
