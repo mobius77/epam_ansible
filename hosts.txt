@@ -1,0 +1,5 @@
+[TEST_SERVERS]
+test ansible_host=test.mobiusz.tk
+
+[PROD_SERVERS]
+prod ansible_host=prod.mobiusz.tk
